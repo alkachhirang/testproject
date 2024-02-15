@@ -6,7 +6,7 @@ const Preloader = () => {
         <div>
             <div className='flex items-center justify-center flex-col min-h-screen bg-[#000]'>
                 <div className='flex justify-center items-center'>
-                    <img src={Preloaderimg} alt="Preloaderimg" className='max-w-[200px] animate-bounce w-full' />
+                    <img src={Preloaderimg} alt="Preloaderimg" className='sm:max-w-[150px] max-w-[100px] animate-bounce w-full' />
                 </div>
             </div>
         </div>
