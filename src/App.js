@@ -8,6 +8,7 @@ import Nobel from './components/Nobel';
 import Service from './components/Service';
 import Vision from './components/Vision';
 import Backtotop from './assets/images/png/back-to-top.png';
+import JoinSection from './components/JoinSection';
 
 function App() {
   const top = () => {
@@ -31,6 +32,7 @@ function App() {
         <Vision />
         <Service />
         <Nobel />
+        <JoinSection/>
         <Consultation />
         <Footer />
       </div>

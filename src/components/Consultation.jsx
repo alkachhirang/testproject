@@ -5,7 +5,7 @@ import Circle1 from '../assets/images/png/circle-1.png';
 
 const Consultation = () => {
     return (
-        <div>
+        <div className='xl:pt-[152px] md:pt-[80px] py-[50px]'>
             <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-[24]'>
                 <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] rounded-[24px] py-[30px] sm:py-[50px] lg:py-[88px] relative xl:max-w-[1140px] mx-[20px] xl:mx-0 p-[18px] md:p-[25px] lg:p-0'>
                     <img src={Circle2} alt="Circle" className='absolute left-0 bottom-0 sm:block hidden' />
