@@ -12,7 +12,7 @@ const Vision = () => {
                         <h3 className='font-bold text-[42px] sm:text-[45px] md:text-[48px] text-[#FDFCFC] leading-[62.4px] mb-[8px] sm:mb-[16px] xl:text-start text-center'>Our <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Vision</span></h3>
                         <p className='font-normal text-[14px] sm:text-[16px] text-[#FDFCFC] xl:max-w-[461px] xl:text-start text-center'>The future of how we live, work, and learn. We see a world where technology is not just a tool but a transformative force for good, reshaping every aspect of human existence.</p>
                         <div className='mt-[25px] flex gap-[12px] flex-col'>
-                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px]'>
+                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px] cursor-pointer'>
                                 <div className='bg-black back p-[20px] xl:p-[12px] rounded-[16px]'>
                                     <div className='flex gap-[10px]'>
                                         <div>
@@ -22,7 +22,7 @@ const Vision = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px]'>
+                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px] cursor-pointer'>
                                 <div className='bg-black back p-[20px] xl:p-[12px] rounded-[16px]'>
                                     <div className='flex w-full gap-[10px]'>
                                         <div>
@@ -32,7 +32,7 @@ const Vision = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px]'>
+                            <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px] cursor-pointer'>
                                 <div className='bg-black back p-[20px] xl:p-[12px] rounded-[16px]'>
                                     <div className='flex gap-[10px]'>
                                         <div>
