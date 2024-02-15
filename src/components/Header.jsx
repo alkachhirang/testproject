@@ -14,7 +14,9 @@ const Header = () => {
         document.body.classList.remove("max-lg:overflow-hidden");
     }
     return (
-        <div>
+        <div className='relative'>
+            <div className=" absolute left-0 top-[17%] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse"></div>
+            <div className=" absolute right-0 top-[27%] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse"></div>
             <div className="container mx-auto xl:max-w-[1164px] xl:px-3 px-[24px]">
                 <div className="flex items-center justify-between pt-[18px] pb-[18.23px]">
                     <a

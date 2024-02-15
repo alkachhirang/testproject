@@ -4,7 +4,8 @@ import { Greentick } from './Iconimg';
 
 const Vision = () => {
     return (
-        <div className='xl:pt-[124px] md:pt-[80px] xl:pb-[152px] md:pb-[100px] py-[50px]'>
+        <div className='xl:pt-[124px] md:pt-[80px] xl:pb-[152px] md:pb-[100px] py-[50px] relative'>
+            <div className=" absolute right-0 top-[0] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse"></div>
             <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-[24px]'>
                 <div className='flex flex-row flex-wrap xl:justify-between justify-center items-center '>
                     <div className='xl:w-[42%] w-full'>
@@ -44,7 +45,7 @@ const Vision = () => {
                         </div>
                     </div>
                     <div className='xl:w-[53%] w-[90%] pt-[45px] xl:pt-0'>
-                        <img src={Visionimg} alt="Visionimg" className='w-full rounded-[17px] xl:max-w-[615px]' />
+                        <img src={Visionimg} alt="Visionimg" className='w-full rounded-[17px] xl:max-w-[615px] relative z-[2]' />
                     </div>
                 </div>
             </div>

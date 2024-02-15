@@ -24,7 +24,7 @@ const Service = () => {
                     <div className='lg:w-[32%]  md:w-[48%] w-full'>
                         <div className='bg-[#FDFCFC] cursor-pointer min-h-[270px] w-full p-[20px] hover:shadow-[0_9px_50px_0px_rgba(0,_0,_0,_0.12)] rounded-[12px] transition-all ease-linear duration-300'>
                             <div className='mb-[20px]'>
-                                <Service4 />
+                                <Service2 />
                             </div>
                             <h4 className='font-bold text-[#000] leading-[33.6px] text-[24px] mb-[8px]'>Education</h4>
                             <p className='font-normal text-[16px]leading-[24px] md:max-w-[324px]'>Education is rooted in the idea that learning should be a lifelong journey</p>
