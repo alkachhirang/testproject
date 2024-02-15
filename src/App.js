@@ -9,8 +9,20 @@ import Service from './components/Service';
 import Vision from './components/Vision';
 import Backtotop from './assets/images/png/back-to-top.png';
 import JoinSection from './components/JoinSection';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 800,
+      }
+    );
+    Aos.refresh()
+  });
   const top = () => {
     document.documentElement.scrollTop = 0;
   };

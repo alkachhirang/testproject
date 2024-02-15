@@ -102,8 +102,8 @@ const Header = () => {
             </div>
             <div id='home' className='container mx-auto xl:max-w-[1280px] xl:px-3 px-[24px] pb-[47px]'>
                 <div className='flex justify-center items-center flex-col sm:mt-[44px] mt-[24px]'>
-                    <h1 className='text-[#FDFCFC] font-bold capitalize text-center max-w-[948px] leading-[140%] sm:leading-[57px] md:leading-[68.6px] text-[30px] sm:text-[45px] md:text-[55px] lg:text-[64px]'>Elevate Your Solutions with <span className='ff_montserrat font-bold bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT</span></h1>
-                    <p className='font-normal text-[14px] sm:text-[16px] leading-[160%] sm:leading-[24px] text-center text-[#FDFCFC] mt-[8px] sm:mt-[16px] md:max-w-[949px]'>At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount.</p>
+                    <h1 className='text-[#FDFCFC] font-bold capitalize text-center max-w-[948px] leading-[140%] sm:leading-[57px] md:leading-[68.6px] text-[30px] sm:text-[45px] md:text-[55px] lg:text-[64px]' data-aos="fade-down">Elevate Your Solutions with <span className='ff_montserrat font-bold bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT</span></h1>
+                    <p className='font-normal text-[14px] sm:text-[16px] leading-[160%] sm:leading-[24px] text-center text-[#FDFCFC] mt-[8px] sm:mt-[16px] md:max-w-[949px]' data-aos="fade-down">At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount.</p>
                 </div>
                 <div className='relative flex justify-center items-center pt-[25px] sm:pt-[35px] md:pt-[65px]'>
                     <img src={Circle1} alt="Circle1" className='absolute w-full max-w-[101px] xl:top-[22px] xl:left-0 top-[2%] left-[-2%] sm:block hidden' />
@@ -146,10 +146,8 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-                <div className='flex justify-center items-center xl:mt-[45px] sm:mt-[35px] mt-[50px]'>
+                <div className='flex justify-center items-center xl:mt-[45px] sm:mt-[35px] mt-[50px]' data-aos="fade-down">
                     <button className="bg-gradient-to-br from-[#77B000] to-[#00D863] hover:shadow-[0_3px_20px_rgba(255,_255,_255,_1)] capitalize text-nowrap transition-all ease-linear duration-500 py-[16px] px-[42.5px] text-[14px] sm:text-[16px] font-bold text-[#fff] rounded-[61px]">
                         Get Started
                     </button>

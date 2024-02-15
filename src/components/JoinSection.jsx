@@ -12,12 +12,12 @@ const JoinSection = () => {
             <div className=" bg-white">
                 <div className="container mx-auto xl:max-w-[1164px] xl:px-3 px-6 md:py-[80px] py-[50px] xl:pt-[109px] xl:pb-[116px] ">
                     <div className=" flex flex-row flex-wrap items-center">
-                        <div className="lg:w-6/12 w-full">
+                        <div className="lg:w-6/12 w-full" data-aos="fade-right">
                             <h2 className=" lg:max-w-[456px] max-lg:text-center capitalize md:text-[48px] sm:text-[42px] text-[36px] text-black font-bold leading-[111%] ">
                                 Join 4,000+ companies <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>already growing</span>
                             </h2>
                         </div>
-                        <div className="lg:w-6/12 w-full pt-9 lg:pt-0">
+                        <div className="lg:w-6/12 w-full pt-9 lg:pt-0" data-aos="fade-left">
                             <div className=" flex flex-col gap-[47px] max-sm:gap-8">
                                 <div className=" flex gap-[52px] max-sm:gap-24 max-lg:justify-center">
                                     <img
