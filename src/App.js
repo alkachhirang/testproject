@@ -12,6 +12,7 @@ import JoinSection from './components/JoinSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import Preloader from './components/Preloader';
 
 function App() {
   useEffect(() => {
@@ -36,22 +37,39 @@ function App() {
       }
     });
   }, []);
+  const [screenLoading, setScreenLoading] = useState(false);
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 2500);
+  }, []);
   return (
-    <>
-      <div className="overflow-hidden">
-        <Header />
-        <Mission />
-        <Vision />
-        <Service />
-        <Nobel />
-        <JoinSection/>
-        <Consultation />
-        <Footer />
-      </div>
-      <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(142,198,39,1)] overflow-hidden fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center rounded-[50px] bg-gradient-to-br from-[#77B000] to-[#00D863] cursor-pointer transition-all ease-linear duration-300 right-[2%] z-[2]" : "hidden"}>
-        <img src={Backtotop} alt='Backtotop' />
-      </div>
-    </>
+
+    <div>
+      {screenLoading ? (
+     <Preloader/>
+      ) : (
+        <>
+          <div className="overflow-hidden">
+            <Header />
+            <Mission />
+            <Vision />
+            <Service />
+            <Nobel />
+            <JoinSection />
+            <Consultation />
+            <Footer />
+          </div>
+          <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(142,198,39,1)] overflow-hidden fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center rounded-[50px] bg-gradient-to-br from-[#77B000] to-[#00D863] cursor-pointer transition-all ease-linear duration-300 right-[2%] z-[2]" : "hidden"}>
+            <img src={Backtotop} alt='Backtotop' />
+          </div>
+        </>
+      )
+      }
+    </div >
+
+
   );
 }
 
