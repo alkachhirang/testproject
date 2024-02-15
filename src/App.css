@@ -28,7 +28,7 @@
     }
 }
 
-@media (min-width:576px) and (max-width:992px) {
+@media (min-width:640px) and (max-width:992px) {
     .left_20 {
         left: 20px !important;
     }

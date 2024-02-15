@@ -14,7 +14,7 @@ const Consultation = () => {
                         <h2 className='text-[#FFFFFF] text-[30px] md:text-[39px] lg:text-[48px] leading-[40px] sm:leading-[55.2px] font-bold mb-[10px] text-center'>So, what you’ve been waiting for?</h2>
                         <p className='text-[#FFFFFF] font-normal text-[16px] leading-[25.6px] max-w-[788px] text-center'>Ipsum integer faucibus eu morbi integer. Tempus in volutpat libero mauris neque dolor pellentesque sagittis. Scelerisque tempor auctor euismod rhoncus non elit molestie sed. Orci quam at varius eget.</p>
                         <div className='flex  justify-center items-center mt-[31px]'>
-                            <button className="bg-[#fff] hover:shadow-[0_3px_20px_rgba(255,_255,_255,_1)] capitalize text-nowrap transition-all ease-linear duration-500 py-[16px] px-[42.5px] text-[16px] font-bold  text-[#00D863] rounded-[61px]">
+                            <button className="bg-[#fff] hover:shadow-[0_3px_20px_rgba(255,_255,_255,_1)] capitalize text-nowrap transition-all ease-linear duration-500 py-[16px] px-[42.5px] text-[14px] sm:text-[16px] font-bold  text-[#00D863] rounded-[61px]">
                                 Get a Free Consultation
                             </button>
                         </div>
