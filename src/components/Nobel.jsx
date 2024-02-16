@@ -3,11 +3,11 @@ import { Greentick2 } from './Iconimg';
 
 const Nobel = () => {
     return (
-        <div id='resourses' className='xl:py-[152px] md:py-[90px] py-[50px] relative'>
+        <div id='resourses' className='xl:py-[152px] md:py-[90px] pt-[40px] pb-[50px] relative'>
             <div className=" absolute right-[-5%] top-[-6%] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse md:block hidden"></div>
             <div className=" absolute left-[-5%] bottom-[-5%] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse md:block hidden"></div>
             <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-[24px]'>
-                <h2 className='font-bold md:text-[48px] sm:text-[44px] text-[38px] leading-[52.8px] text-center text-[#FDFCFC] mb-[25px] sm:mb-[40px] md:mb-[52px]' data-aos="fade-down">Why Choose <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT?</span></h2>
+                <h2 className='font-bold md:text-[48px] sm:text-[44px] text-[40px] leading-[52.8px] text-center text-[#FDFCFC] mb-[25px] sm:mb-[40px] md:mb-[52px]' data-aos="fade-down">Why Choose <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT?</span></h2>
                 <div className='flex flex-row flex-wrap justify-between'>
                     <div className='lg:w-[48%] w-full' data-aos="fade-right">
                         <div className='p-[12px] bg-transparent hover:bg-[#77B0003D] border-transparent border-[0.5px] border-solid hover:border-[0.5px] hover:border-solid hover:border-[#77B000] rounded-[12px] transition-all duration-300 ease-linear cursor-pointer mb-[24px]'>

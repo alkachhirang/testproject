@@ -100,9 +100,9 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div id='home' className='container mx-auto xl:max-w-[1280px] xl:px-3 px-[24px] pb-[47px]'>
+            <div id='home' className='container mx-auto xl:max-w-[1280px] xl:px-3 px-[24px] pb-[30px] sm:pb-[47px]'>
                 <div className='flex justify-center items-center flex-col sm:mt-[44px] mt-[24px]'>
-                    <h1 className='text-[#FDFCFC] font-bold capitalize text-center max-w-[948px] leading-[140%] sm:leading-[57px] md:leading-[68.6px] text-[30px] sm:text-[45px] md:text-[55px] lg:text-[64px]' data-aos="fade-down">Elevate Your Solutions with <span className='ff_montserrat font-bold bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT</span></h1>
+                    <h1 className='text-[#FDFCFC] font-bold capitalize text-center max-w-[948px] leading-[120%] sm:leading-[57px] md:leading-[68.6px] text-[40px] sm:text-[45px] md:text-[55px] lg:text-[64px]' data-aos="fade-down">Elevate Your Solutions with <span className='ff_montserrat font-bold bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Noble Mind IT</span></h1>
                     <p className='font-normal text-[14px] sm:text-[16px] leading-[160%] sm:leading-[24px] text-center text-[#FDFCFC] mt-[8px] sm:mt-[16px] md:max-w-[949px]' data-aos="fade-down">At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount.</p>
                 </div>
                 <div className='relative flex justify-center items-center pt-[25px] sm:pt-[35px] md:pt-[65px]'>

@@ -8,9 +8,11 @@ import { Service6 } from './Iconimg';
 
 const Service = () => {
     return (
-        <div className='xl:pt-[119px] md:pt-[90px]  xl:pb-[122px] md:pb-[90px] py-[50px] bg-[#FDFCFC] '>
+        <div className='xl:pt-[119px] md:pt-[90px]  xl:pb-[122px] md:pb-[90px] pt-[35px] pb-[50px] bg-[#FDFCFC] relative'>
+            <div className=" absolute right-0 top-[0] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse md:block hidden"></div>
+            <div className=" absolute left-0 bottom-[0] blur-[124px] opacity-[70%]  w-[268px] h-[275px] rounded-[50%] bg-gradient-to-l from-[#77B000] to-[#00D863] animate-pulse md:block hidden"></div>
             <div id='solutions' className='container mx-auto xl:max-w-[1164px] xl:px-3 px-[24px]'>
-                <h3 className='font-bold text-[42px] sm:text-[45px] md:text-[48px] text-[#000] leading-[52.4px] mb-[45px] md:mb-[52px] text-center' data-aos="fade-down">Our <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Services</span></h3>
+                <h3 className='font-bold text-[40px] sm:text-[45px] md:text-[48px] text-[#000] leading-[52.4px] mb-[45px] md:mb-[52px] text-center' data-aos="fade-down">Our <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Services</span></h3>
                 <div className='flex flex-row flex-wrap justify-center lg:justify-between gap-[24px] lg:gap-[0]'>
                     <div className='lg:w-[32%] md:w-[48%] w-full' data-aos="zoom-in-up">
                         <div className='bg-[#FDFCFC] cursor-pointer min-h-[270px] w-full p-[20px] group hover:shadow-[0_9px_50px_0px_rgba(0,_0,_0,_0.12)] rounded-[12px] transition-all ease-linear duration-300'>

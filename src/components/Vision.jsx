@@ -9,7 +9,7 @@ const Vision = () => {
             <div className='container mx-auto xl:max-w-[1164px] xl:px-3 px-[24px]'>
                 <div className='flex flex-row flex-wrap xl:justify-between justify-center items-center '>
                     <div className='xl:w-[42%] w-full' data-aos="fade-right">
-                        <h3 className='font-bold text-[42px] sm:text-[45px] md:text-[48px] text-[#FDFCFC] leading-[62.4px] mb-[8px] sm:mb-[16px] xl:text-start text-center'>Our <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Vision</span></h3>
+                        <h3 className='font-bold text-[40px] sm:text-[45px] md:text-[48px] text-[#FDFCFC] leading-[62.4px] sm:mb-[8px] sm:mb-[16px] xl:text-start text-center'>Our <span className='bg-gradient-to-br from-[#77B000] to-[#00D863] bg-clip-text text-transparent inline-block'>Vision</span></h3>
                         <p className='font-normal text-[14px] sm:text-[16px] text-[#FDFCFC] xl:max-w-[461px] xl:text-start text-center'>The future of how we live, work, and learn. We see a world where technology is not just a tool but a transformative force for good, reshaping every aspect of human existence.</p>
                         <div className='mt-[25px] flex gap-[12px] flex-col'>
                             <div className='bg-gradient-to-br from-[#77B000] to-[#00D863] p-[1px] rounded-[16px] cursor-pointer'>
